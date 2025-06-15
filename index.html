@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanashri's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Dhanashri 👩‍💻</h1>
+    <p>A passionate Web Developer crafting creative user experiences.</p>
+    <div class="buttons">
+      <button onclick="showTab('home')">Home</button>
+      <button onclick="showTab('about')">About Me</button>
+      <button onclick="showTab('projects')">Projects</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="tab active">
+      <img src="photo.jpg" alt="Dhanashri's Photo" class="profile-photo" />
+      <h2>Welcome to My World!</h2>
+      <p>I love creating beautiful and functional websites. Let's build something great together!</p>
+    </section>
+
+    <section id="about" class="tab">
+      <h2>About Me</h2>
+      <p>I'm Dhanashri Mahendra Shegokar, an IT student from JD College of Engineering & Management, Nagpur.</p>
+      <p>I've done a virtual internship in AI-ML (Google & EduSkills) and created amazing projects using Django and PHP.</p>
+    </section>
+
+    <section id="projects" class="tab">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>E-commerce Website</h3>
+        <p>Built with Django and Bootstrap. Fully functional shopping system with cart and login.</p>
+      </div>
+      <div class="project">
+        <h3>Hospital Management System</h3>
+        <p>Created using PHP and MySQL to manage patient records, appointments, and billing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Connect with me: 
+      <a href="mailto:you@example.com">Email</a> | 
+      <a href="https://linkedin.com">LinkedIn</a> | 
+      <a href="https://github.com">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
